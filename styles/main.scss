@@ -1,0 +1,13 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+
+section {
+ @include span-columns(12);
+ @include outer-container;
+ @include direction-context(left-to-right);
+}
+figure {
+  @include span-columns(5);
+}
